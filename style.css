@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+#icon{
+    display: flex;
+    display: none;
+}
+#hover{
+    color: white;
+}
+@media(max-width:949px) {
+    li {
+        display: none;
+    }
+
+    #icon {
+        display: block;
+        margin: 30px 30px;
+        font-size: larger;
+    }
+
+
+    
+
+}
